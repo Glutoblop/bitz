@@ -13,527 +13,350 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Layout">
+      <UniqueIdentifier>{dc3bd567-ffbf-47a0-b33a-16edd1e1005c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{ec42e4c0-7ee3-4bf7-87e9-347d584c50da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Layout">
+      <UniqueIdentifier>{0a0f33d8-e0e7-480f-927e-46d421b2c8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{504f28b1-d430-4d1f-971c-eaf7df6cd604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{5567cbc6-3804-40b5-9eba-c524242f0fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{1b3bf917-ac61-4dc4-9716-3632f6062da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content">
+      <UniqueIdentifier>{7744fcfe-814b-47b0-9c63-ee16201ac2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content">
+      <UniqueIdentifier>{8a65df84-4b83-48e2-999f-72a235c8a207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{b0bb8312-3e9f-4470-9b9f-558f684552ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{838184c5-1d47-4e68-b85d-a06be72b7060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{f976f445-f0a8-48cc-be9a-3b2da85d7d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{0e4c904f-cd37-4f63-9ac3-16635acd9c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialize">
+      <UniqueIdentifier>{c0e60b97-ebc5-4c09-8aed-794d98bad212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialize">
+      <UniqueIdentifier>{6c17a939-d032-4e3a-a4f3-7ff698e6faa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders">
+      <UniqueIdentifier>{cbb9fb63-c5fb-45b8-afbe-b74f44975c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders">
+      <UniqueIdentifier>{2d1bd721-b9b6-480c-9408-9afef823ad53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{0cf26b5e-4b93-4346-a63f-341b01f218d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{a449ee4f-b225-478f-82b9-9454173612ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Time">
+      <UniqueIdentifier>{5c7196bd-34ea-438b-91c6-53792fdd34fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{218d4c3c-c013-4cb5-9d17-61c4a16d6961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogic">
+      <UniqueIdentifier>{9754090c-2b9d-4667-811f-7316ff915211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GraphicsStates">
+      <UniqueIdentifier>{1d8056ec-d7b8-4869-b05b-6907bdc3b47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Drawables">
+      <UniqueIdentifier>{7eaeff76-a8cb-4d3b-a1b7-cbadd217c14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libs">
+      <UniqueIdentifier>{02b36fca-3f9c-427f-a5f9-c52d40eb6864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Box2D">
+      <UniqueIdentifier>{36aaba46-033a-4226-a0f6-cb09694ac906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GraphicsStates">
+      <UniqueIdentifier>{056a9aa2-98d5-4e48-9cff-34a4b9c46cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Drawables">
+      <UniqueIdentifier>{5c52adb5-ac65-43d6-a41e-6085a780a5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{8ca6f728-1327-4a55-a4c4-cfe2e40a01ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogic">
+      <UniqueIdentifier>{e476469a-3626-4f37-9d9c-5400c55df776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libs">
+      <UniqueIdentifier>{a88834c9-a046-4e62-bbee-a95a5de82838}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Graphics\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\GLContext.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Content\ContentManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Content\IO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Content\TextureData.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Debug\Console.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Debug\Logging.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameLogic\GameCore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameLogic\GameState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GameLogic\GameStateService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Drawables\Model.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Drawables\Sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Drawables\VoxelGrid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\GraphicsStates\BaseGS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\GraphicsStates\GS2D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\GraphicsStates\GS3D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Shaders\Shader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Shaders\ShaderService.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Shaders\Stock2D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Shaders\Stock3D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\GraphicsManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\RenderEngine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Texture.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Input\Keyboard.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Input\Mouse.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Interfaces\IAnchorable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Interfaces\IDisposable.cpp">
+    <ClCompile Include="Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Layout\Anchor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Libs\CppFormat\format.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Libs\Glew\glew.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2ChainShape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2CircleShape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2EdgeShape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2PolygonShape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2BroadPhase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2CollideCircle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2CollideEdge.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2CollidePolygon.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2Collision.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2Distance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2DynamicTree.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Collision\b2TimeOfImpact.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Layout</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Common\b2BlockAllocator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Common\b2Draw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Common\b2Math.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Common\b2Settings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Common\b2StackAllocator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Common\b2Timer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2Contact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2GearJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2Joint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Dynamics\b2Body.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2Collision.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Dynamics\b2ContactManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2Distance.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Common\b2Draw.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Dynamics\b2Fixture.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Dynamics\b2Island.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\b2World.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
-    <ClCompile Include="Physics\Box2D\Dynamics\b2WorldCallbacks.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Physics\Box2D\Common\b2Math.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\Box2D\Rope\b2Rope.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Common\b2Settings.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Common\b2Timer.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\b2World.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ContentManager.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
     <ClCompile Include="Physics\I2DPhysicsEnabled.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\IAnchorable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\IDisposable.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GLContext.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Keyboard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
     </ClCompile>
     <ClCompile Include="Serialize\Packet.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\RenderEngine.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shaders\ShaderService.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shaders\Shader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shaders\Stock3D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shaders\Stock2D.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
     </ClCompile>
     <ClCompile Include="Time\Timer.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsStates\GS2D.cpp">
+      <Filter>Source Files\Graphics\GraphicsStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsStates\BaseGS.cpp">
+      <Filter>Source Files\Graphics\GraphicsStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GraphicsStates\GS3D.cpp">
+      <Filter>Source Files\Graphics\GraphicsStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Drawables\Model.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Drawables\Sprite.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Drawables\VoxelGrid.cpp">
+      <Filter>Source Files\Graphics\Drawables</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\TextureData.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\IO.cpp">
+      <Filter>Source Files\Content</Filter>
     </ClCompile>
     <ClCompile Include="Core.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Interfaces</Filter>
     </ClCompile>
-    <ClCompile Include="Utility.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Debug\Console.cpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Logging.cpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\GameState.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\GameStateService.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\GameCore.cpp">
+      <Filter>Source Files\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\CppFormat\format.cc">
+      <Filter>Source Files\Libs</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\Glew\glew.c">
+      <Filter>Source Files\Libs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Import.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Content\ContentManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Content\IO.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Content\TextureData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Debug\Console.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Debug\Logging.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameLogic\GameCore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameLogic\GameState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameLogic\GameStateService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Drawables\IDrawable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Drawables\Model.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Drawables\Sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Drawables\VoxelGrid.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\GraphicsStates\BaseGS.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\GraphicsStates\GS2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\GraphicsStates\GS3D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Shaders\Shader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Shaders\ShaderService.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Shaders\Stock2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Shaders\Stock3D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\GLContext.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\GraphicsManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\RenderEngine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Texture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Input\Keyboard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Input\Mouse.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Interfaces\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Interfaces\IAnchorable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Interfaces\IDisposable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Layout\Anchor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Libs\CppFormat\format.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Libs\Glew\glew.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Math.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2ChainShape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2CircleShape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2EdgeShape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2PolygonShape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2Shape.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\b2BroadPhase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\b2Collision.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\b2Distance.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\b2DynamicTree.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Collision\b2TimeOfImpact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2BlockAllocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2Draw.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2GrowableStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2Math.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2Settings.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2StackAllocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Common\b2Timer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2CircleContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2Contact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ContactSolver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2PolygonContact.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2DistanceJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2FrictionJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2GearJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2Joint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2MotorJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2MouseJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2PulleyJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2RopeJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2WeldJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2WheelJoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2Body.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2ContactManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2Fixture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2Island.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2TimeStep.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2World.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Dynamics\b2WorldCallbacks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Rope\b2Rope.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\Box2D\Box2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Physics\I2DPhysicsEnabled.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Serialize\Packet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Time\Consts.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Time\Timer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Common.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Settings.h">
@@ -541,6 +364,273 @@
     </ClInclude>
     <ClInclude Include="Utility.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\Anchor.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ContentManager.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsManager.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\I2DPhysicsEnabled.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IAnchorable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IDisposable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Drawables\IDrawable.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GLContext.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Keyboard.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Serialize\Packet.h">
+      <Filter>Header Files\Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RenderEngine.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shaders\ShaderService.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shaders\Shader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shaders\Stock3D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shaders\Stock2D.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Time\Timer.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Window.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\IO.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\TextureData.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Console.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Logging.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\GameCore.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\GameState.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\GameStateService.h">
+      <Filter>Header Files\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsStates\BaseGS.h">
+      <Filter>Header Files\Graphics\GraphicsStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsStates\GS2D.h">
+      <Filter>Header Files\Graphics\GraphicsStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GraphicsStates\GS3D.h">
+      <Filter>Header Files\Graphics\GraphicsStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Drawables\Sprite.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Drawables\Model.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Drawables\VoxelGrid.h">
+      <Filter>Header Files\Graphics\Drawables</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Core.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\Glew\glew.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\CppFormat\format.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2BlockAllocator.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2Body.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\b2BroadPhase.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\b2Collision.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\b2Distance.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2Draw.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\b2DynamicTree.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2Fixture.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2GrowableStack.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2Island.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2Math.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Rope\b2Rope.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2Settings.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2StackAllocator.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Common\b2Timer.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2World.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Box2D\Box2D.h">
+      <Filter>Header Files\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Time\Consts.h">
+      <Filter>Header Files\Time</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

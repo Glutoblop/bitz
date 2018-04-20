@@ -7,9 +7,7 @@ using namespace Bitz::GFX;
 GraphicsStates::GS2D * Game::RenderState2d;
 GraphicsStates::GS3D * Game::RenderState3d;
 
-std::shared_ptr<GSTest1> Game::GameState_Test1 = nullptr;
-std::shared_ptr<GSTest2> Game::GameState_Test2 = nullptr;
-std::shared_ptr<GSTest3> Game::GameState_Test3 = nullptr;
+std::shared_ptr<Bitz::GameLogic::GameState> Game::GameState_Test = nullptr;
 
 Game::Game() : Bitz::GameLogic::GameCore("Explore")
 {
@@ -43,23 +41,22 @@ bool Game::Init()
 	RenderState3d->GetActiveCamera()->SetPosition(Vector3F(0, 0, -30));
 	RenderState3d->SetActiveBlendState(Bitz::GFX::GraphicsStates::BaseGS::ALPHA);
 
-	if (GameState_Test3 == nullptr)
+	int test = 1;
+
+	switch (test)
 	{
-		GameState_Test3 = std::make_shared<GSTest3>();
-		Bitz::GameLogic::GameStateService::StartState(GameState_Test3);
+	case 0:
+		GameState_Test = std::make_shared<GSTest1>();
+		break;
+	case 1:
+		GameState_Test = std::make_shared<GSTest2>();
+		break;
+	case 2:
+		GameState_Test = std::make_shared<GSTest3>();
+		break;
 	}
-	
-	//if (GameState_Test1 == nullptr)
-	//{
-	//	GameState_Test1 = std::make_shared<GSTest1>();
-	//	Bitz::GameLogic::GameStateService::StartState(static_cast<Bitz::GameLogic::GameState_Ptr>(GameState_Test1));
-	//}
-	
-	/*if (GameState_Test2 == nullptr)
-	{
-		GameState_Test2 = std::make_shared<GSTest2>();
-		Bitz::GameLogic::GameStateService::StartState(GameState_Test2);
-	}*/
+
+	Bitz::GameLogic::GameStateService::StartState(static_cast<Bitz::GameLogic::GameState_Ptr>(GameState_Test));
 
 	return true;
 }
@@ -82,23 +79,8 @@ bool Game::UnloadContent()
 
 bool Game::OnExit()
 {
-	if (GameState_Test1 != nullptr)
-	{
-		Bitz::GameLogic::GameStateService::EndState(GameState_Test1);
-		GameState_Test1 = nullptr;
-	}
-
-	if (GameState_Test2 != nullptr)
-	{
-		Bitz::GameLogic::GameStateService::EndState(GameState_Test2);
-		GameState_Test2 = nullptr;
-	}
-
-	if (GameState_Test3 != nullptr)
-	{
-		Bitz::GameLogic::GameStateService::EndState(GameState_Test3);
-		GameState_Test3 = nullptr;
-	}
+	Bitz::GameLogic::GameStateService::EndState(GameState_Test);
+	GameState_Test = nullptr;
 
 	return true;
 }

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameClasses\Objects\Test1\Orb.cpp">
+      <Filter>GameClasses\Objects\Test1</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\Objects\Test2\Phys_Ground.cpp">
+      <Filter>GameClasses\Objects\Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\Objects\Test2\Phys_Crate.cpp">
+      <Filter>GameClasses\Objects\Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\States\Test1\GSTest1.cpp">
+      <Filter>GameClasses\States\Test1</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\States\Test2\GSTest2.cpp">
+      <Filter>GameClasses\States\Test2</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\States\Test3\GSTest3.cpp">
+      <Filter>GameClasses\States\Test3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameClasses\Objects\Test1\Orb.h">
+      <Filter>GameClasses\Objects\Test1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\Objects\Test2\Phys_Ground.h">
+      <Filter>GameClasses\Objects\Test2</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\Objects\Test2\Phys_Crate.h">
+      <Filter>GameClasses\Objects\Test2</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\States\Test1\GSTest1.h">
+      <Filter>GameClasses\States\Test1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\States\Test2\GSTest2.h">
+      <Filter>GameClasses\States\Test2</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\States\Test3\GSTest3.h">
+      <Filter>GameClasses\States\Test3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\particle.Gdat">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\box.Gdat">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\purple.Gdat">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\texture.Gdat">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\texture_s.Gdat">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{6ef983c2-88c0-4c0a-bfe5-ed60376694b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses">
+      <UniqueIdentifier>{366ec57f-9da9-4647-8885-896c943ed820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\Objects">
+      <UniqueIdentifier>{ea7bd5eb-1c66-4e4d-b1c4-1fe7dfea5fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\Objects\Test1">
+      <UniqueIdentifier>{5aebf104-f9e8-45eb-9687-50037e4c9f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\Objects\Test2">
+      <UniqueIdentifier>{e56d3710-d19f-43b7-bb55-0b8afa97a564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\States">
+      <UniqueIdentifier>{10b4efbe-fb48-4e07-a707-85653690ee2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\States\Test1">
+      <UniqueIdentifier>{a22d7e37-5870-45bc-8c55-5d1c41b0e6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\States\Test2">
+      <UniqueIdentifier>{03421076-b9ea-4838-806c-fa24704764bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClasses\States\Test3">
+      <UniqueIdentifier>{c28d56a9-a3d2-42a2-9b65-c2529a1c1029}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
