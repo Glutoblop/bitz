@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameClasses\States\Test1\GSTest1.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\States\Test2\GSTest2.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\States\Test3\GSTest3.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\Objects\Test1\Orb.cpp">
+      <Filter>Objects\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\Objects\Test2\Phys_Crate.cpp">
+      <Filter>Objects\Physics\Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses\Objects\Test2\Phys_Ground.cpp">
+      <Filter>Objects\Physics\Ground</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameClasses\States\Test1\GSTest1.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\States\Test2\GSTest2.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\States\Test3\GSTest3.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\Objects\Test1\Orb.h">
+      <Filter>Objects\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\Objects\Test2\Phys_Crate.h">
+      <Filter>Objects\Physics\Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClasses\Objects\Test2\Phys_Ground.h">
+      <Filter>Objects\Physics\Ground</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\particle.Gdat">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Content\box.Gdat">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Content\purple.Gdat">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Content\texture.Gdat">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="Content\texture_s.Gdat">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{10b4efbe-fb48-4e07-a707-85653690ee2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{366ec57f-9da9-4647-8885-896c943ed820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Particles">
+      <UniqueIdentifier>{d8ed6dd3-37e4-48e2-aacb-f420b6ea55d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Physics">
+      <UniqueIdentifier>{83955170-4828-4f66-bba7-c69c6fba0b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Physics\Crate">
+      <UniqueIdentifier>{9255ad5e-0866-4391-88c6-92e07442eae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Physics\Ground">
+      <UniqueIdentifier>{96581dd0-edc3-40b9-9a36-c9d4ff87eb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6ef983c2-88c0-4c0a-bfe5-ed60376694b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
