@@ -37,7 +37,9 @@ namespace AssetPacker
             foreach (Tuple<string, Packet> p in ProcessedFiles)
             {
                 byte[] packData = p.Item2.ToByteArray();
-                using (FileStream outStream = File.Create(OUTPUTFOLDER + "\\" + p.Item1))
+                string outputFile = OUTPUTFOLDER + "\\" + p.Item1;
+                CheckCreateOutputDirectory(outputFile);
+                using (FileStream outStream = File.Create(outputFile))
                 {
                     outStream.Write(packData, 0, packData.Length);
                 }
@@ -45,6 +47,33 @@ namespace AssetPacker
             }
 
             ProcessedFiles.Clear();
+        }
+
+        /// <summary>Will check to see if the directory the output file is located in exists, if it doesn't then it will create it</summary>
+        /// <param name="outputFile"></param>
+        /// <returns>true if the directory was created</returns>
+        private static bool CheckCreateOutputDirectory(String outputFile)
+        {
+            outputFile = outputFile.Replace("/", "\\");
+
+            string[] temp = outputFile.Split('\\');
+
+            string outputFolder = "";
+            int max = temp.Length - 1;
+
+            for (int i = 0; i < max; i++)
+            {
+                outputFolder += temp[i];
+                if (i < max) outputFolder += "\\";
+            }
+
+            if (!Directory.Exists(outputFolder))
+            {
+                Directory.CreateDirectory(outputFolder);
+                return true;
+            }
+
+            return false;
         }
 
         private static void FilterFiles(ref List<string> detectedFiles)
