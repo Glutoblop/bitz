@@ -78,7 +78,7 @@
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{03DF354A-C732-459D-B722-956F7E7BD180}</ProjectGuid>
+    <ProjectGuid>{64A765A4-A1D4-4AF9-929D-4B107875923B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestAppWindows</RootNamespace>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
